@@ -320,3 +320,347 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* Highlight Blocks */
+.highlight-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-unit);
+  margin: calc(var(--spacing-unit) * 0.8) 0;
+}
+
+.highlight-block {
+  padding: var(--spacing-unit) calc(var(--spacing-unit) * 1.2);  // 增加左右内边距
+  background: var(--gradient-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  margin-bottom: calc(var(--spacing-unit) * 0.6);  // 减小下方间距
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--hover-shadow);
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);  // 减小标题下方间距
+    color: $primary-color;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: calc(var(--spacing-unit) * 0.8);  // 调整列表缩进
+
+    li {
+      margin-bottom: calc(var(--spacing-unit) * 0.34);  // 减小列表项间距
+      color: $text-color;
+      line-height: 1.34;  // 稍微减小行高
+    }
+  }
+}
+
+/* Enhanced Paper Box */
+.paper-box {
+  background: var(--gradient-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  border: 1px solid rgba(1, 47, 99, 0.08);
+  padding: var(--spacing-unit) calc(var(--spacing-unit) * 1.2);  // 增加左右内边距
+  margin: calc(var(--spacing-unit) * 0.8) 0;  // 减小外边距
+  display: flex;
+  flex-direction: row;  // 确保是水平方向的flex
+  align-items: flex-start;
+
+  //&:hover {
+  //  transform: translateY(-5px);
+  //  box-shadow: var(--hover-shadow);
+  //}
+
+  .paper-box-image {
+    margin: 0 calc(var(--spacing-unit) * 1.1);  // 增加图片区域的左右margin
+    //transition: opacity 0.3s ease;
+    transition: filter 0.3s ease;
+    img {
+      width: 100%;
+      border-radius: calc(var(--border-radius) * 0.75);
+    }
+    img:hover {
+      //opacity: 0.85; // ✅ 悬浮变淡
+      filter: brightness(70%);  // 变暗，数值越小越暗
+    }
+  }
+
+  .paper-box-text {
+    flex: 1;          // 让文字部分占据剩余空间
+    margin: 0 calc(var(--spacing-unit) * 1.2);  // 增加文字区域的左右margin
+
+    h2 {
+      margin-top: calc(var(--spacing-unit) * 0.4);  // 减小标题上方间距
+    }
+  }
+
+  .badge {
+    background-color: $primary-color;
+    color: white;
+    padding: 0.2em 0.8em;  // 稍微减小badge的内边距
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 8px rgb(191, 215, 255);
+    z-index: 10; /* ✅ 确保在所有图片层之上 */
+  }
+
+  .paper-box-text {
+    flex: 1;
+
+    h2 {
+      margin-top: 0.2em;
+      margin-bottom: 0.3em;
+      line-height: 1.2;  // 控制标题的行高
+    }
+
+    .paper-authors {
+      font-size: 0.9em;
+      color: var(--text-muted, #666);
+      line-height: 1.4;  // 与标题一致
+      margin-bottom: 0.8em;  // 保持与正文的间距
+    }
+
+    p {
+      margin-bottom: 0.8em;
+      line-height: 1.6;
+    }
+
+    a {
+      margin-right: 1em;
+      font-size: 0.9em;
+      color: var(--link-color, #0057d8);
+    }
+  }
+}
+
+/* Section Headers */
+//h1, h2, h3 {
+h3 {
+  position: relative;
+  padding-left: calc(var(--spacing-unit) * 0.6);  // 减小左内边距
+  margin: calc(var(--spacing-unit) * 0.8) 0 calc(var(--spacing-unit) * 0.6);  // 减小上下margin
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 4px;
+    background: $primary-color;
+    border-radius: 2px;
+  }
+}
+
+/* List Items Enhancement */
+ul:not(.highlight-block ul) {
+  li {
+    position: relative;
+    padding: 0.4rem 0.1rem;  // 减小列表项内边距
+    transition: var(--transition);
+
+    &:hover {
+      transform: translateX(5px);
+    }
+  }
+}
+
+/* Paper Box Link Hover */
+.paper-box-text {
+  a:hover {
+    color: $success-color;
+  }
+}
+
+/* Highlight Block Link Hover */
+.highlight-block {
+  a:hover {
+    color: $success-color;
+  }
+}
+
+// 重置导航链接样式
+nav a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: $success-color;
+  }
+}
+
+// 重置图片链接样式
+figure > a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+  //start
+.internship-box {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  padding: 16px;
+  margin-bottom: 32px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.internship-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.internship-logo {
+  //flex-basis: 20%;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.internship-logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+.internship-summary {
+  //flex-basis: 20%;
+  position: relative;
+  padding-right: 16px;
+  margin-right: 12px;
+}
+
+.internship-summary::after {
+  content: "";
+  position: absolute;
+  top: -7%;
+  bottom: -7%;
+  right: -1px;
+  width: 1px;
+  background: linear-gradient(to bottom, rgba(58, 139, 253, 0.4), rgba(181, 209, 255, 0.4), rgba(58, 139, 253, 0.4));
+  backdrop-filter: blur(2px);
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.internship-summary h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.internship-role,
+.internship-advisor {
+  font-size: 1rem;
+  margin-top: 8px;
+  color: #555;
+}
+
+.internship-detail {
+  //flex-basis: 60%;
+  flex-shrink: 0;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.internship-detail p {
+  margin: 0 0 0.1em 0;
+  font-weight: 400;
+  font-size: 1rem;  /* 与 li 保持一致更协调 */
+  line-height: 1.35;
+}
+
+.internship-detail ul {
+  margin-top: 0;     /* ⬅️ 去掉与 p 的间距 */
+  margin-bottom: 0;
+  padding-left: calc(var(--spacing-unit) * 0.8); /* ⬅️ 模仿 highlight-block 缩进 */
+ li {
+    margin-bottom: calc(var(--spacing-unit) * 0); /* 控制上下间距 */
+    line-height: 1.1;                               /* 控制行高（内容本身高度） */
+    color: #333;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .internship-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .internship-summary::after {
+    display: none;
+  }
+
+  .internship-summary {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .internship-logo {
+    margin-bottom: 16px;
+  }
+}
+
+.timeline-time {
+  position: absolute;
+  top: 0; /* 不再往上浮动，避免压住标题 */
+  left: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2457a6;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 32px;
+  margin-top: 40px;   /* ⬅️ 新增：和标题保持距离 */
+  margin-bottom: 40px;
+}
+
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #3a8bfd, #b5d1ff);
+  border-radius: 1px;
+}
+
+.timeline-time {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2457a6;
+}
