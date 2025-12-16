@@ -24,8 +24,8 @@ My research interest includes Trustworthy AI, Large Language Model and Diffusion
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 I got the offer from the School of Computer Science, Peking University at the summer camp.
-- *2025.06*: &nbsp;🎉🎉 Our paper CtrlDiff is online at <a href="https://arxiv.org/pdf/2505.14455" target="_blank"><strong>Arxiv</strong></a>
-- *2025.06*: &nbsp;🎉🎉 Our paper ScoreAdv is online at <a href="https://arxiv.org/pdf/2507.06078" target="_blank"><strong>Arxiv</strong></a>
+- *2025.06*: &nbsp;🎉🎉 Our paper CtrlDiff is online at <a href="https://arxiv.org/pdf/2505.14455" target="_blank"><strong>Arxiv</strong></a>.
+- *2025.06*: &nbsp;🎉🎉 Our paper ScoreAdv is online at <a href="https://arxiv.org/pdf/2507.06078" target="_blank"><strong>Arxiv</strong></a>.
 - *2024.12*: &nbsp;🎉🎉 Our paper is accepted by <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32377" target="_blank"><strong>AAAI2025</strong></a>, congratulations to our co-authors!
 
 # 📝 Publications 
