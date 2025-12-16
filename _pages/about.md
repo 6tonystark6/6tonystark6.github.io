@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm an undergraduate student at Nanjing University of Science and Technology, and I will be a PhD student at the Department of Computer Science, Hong Kong University of Science and Technology in fall 2026, supervised by Prof. Shuai Wang.
+I'm an undergraduate student at Nanjing University of Science and Technology. During my undergraduate study, I have ranked first for three years and won multiple scholarships. I have been actively engaged in research and published several CCF conference papers. I'm an incoming a PhD student at the Department of Computer Science, Hong Kong University of Science and Technology in fall 2026, supervised by Prof. Shuai Wang.
 
-My research interest includes Trustworthy AI, Large Language Model and Diffusion Model. I have published several papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=bS5yQmwAAAAJ'>google scholar citations <span id='total_cit'>20+</span></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=bS5yQmwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes Trustworthy AI, Large Language Model and Diffusion Model, and I aim to address critical trustworthiness challenges at the intersection of these fields.
 
 
 # 🔥 News
@@ -40,7 +40,7 @@ My research interest includes Trustworthy AI, Large Language Model and Diffusion
 
 **Chihan Huang**, Xiaobo Shen
 
-Deep hashing models excel in retrieval but share the vulnerability of deep networks to adversarial attacks. While most attacks focus on classification, few target retrieval models. We propose HUANG, the first black-box targeted adversarial attack for hashing retrieval using a diffusion model. Our method guides the shift from benign to adversarial distributions via adversarial perturbations and a residual image. Experiments show HUANG achieves state-of-the-art performance in black-box targeted attacks across datasets, with strong robustness and transferability due to the dynamic interplay between denoising and perturbation addition.
+Deep hashing models excel at retrieval but remain vulnerable to adversarial attacks. While most attacks target classification, few address retrieval models. We propose HUANG, the first black-box targeted attack for hashing retrieval using a diffusion model. Our method shifts from benign to adversarial distributions via perturbations and a residual image. Experiments show HUANG achieves state-of-the-art performance in black-box targeted attacks, with strong robustness and transferability due to the dynamic interplay between denoising and perturbation addition.
 </div>
 </div>
 
@@ -52,7 +52,7 @@ Deep hashing models excel in retrieval but share the vulnerability of deep netwo
 
 **Chihan Huang**, Xiaobo Shen
 
-Ancient Chinese poetry lacks dedicated pre-trained models. We propose PoemBERT, a BERT-based model trained on classical poetry. By incorporating sentiment and pinyin embeddings, along with novel Character Importance-based and dynamic masking strategies, it better captures poetic emotion, imagery, and linguistic nuances. Fine-tuned for tasks like generation and classification, PoemBERT achieves state-of-the-art performance in automated and human evaluations.
+Ancient Chinese poetry lacks dedicated pre-trained models. We propose PoemBERT, a BERT model for classical poetry. It uses sentiment and pinyin embeddings, plus novel masking strategies, to better capture poetic emotion, imagery, and linguistic nuances. Fine-tuned on tasks like generation and classification, PoemBERT achieves state-of-the-art results in both automated and human evaluations.
 </div>
 </div>
 
@@ -64,25 +64,23 @@ Ancient Chinese poetry lacks dedicated pre-trained models. We propose PoemBERT, 
 
 **Chihan Huang**, Xiaobo Shen
 
-Deep hashing excels in retrieval but remains vulnerable to adversarial attacks. Existing methods rarely address targeted black-box attacks on these models. We propose EmbSTar, an efficient multi-branch attack framework. It first distills a knockoff model, then uses novel Target Fusion and Adaptation modules to semantically align adversarial images with a target. This enables powerful, query-efficient attacks. Extensive experiments show EmbSTar achieves state-of-the-art performance in targeted black-box scenarios.
+Deep hashing excels at retrieval but is vulnerable to adversarial attacks, especially in targeted black-box scenarios. We propose EmbSTar, an efficient multi-branch attack framework. It distills a knockoff model and employs novel Target Fusion and Adaptation modules to semantically align adversarial images with a target, enabling powerful, query-efficient attacks. Experiments confirm EmbSTar's state-of-the-art performance.
 </div>
 </div>
 
 
 # 🎖 Honors and Awards
-- *2025.12* Top Moral Student at NJUST (Top 0.1%)
+- *2025.12* BYD Scholarship (Top 0.1%)
 - *2024.09* Top Moral Student at NJUST (Top 0.3%)
 - *2024.09* Superior Scholarship at NJUST 
 - *2024.04* First Prize Scholarship at NJUST 
 - *2023.04* First Prize Scholarship at NJUST 
 
 # 📖 Educations
-- *2026.09 -  (incoming)*, PhD at Hong Kong University of Science and Technology. 
-- *2022.09 - 2026.06*, undergraduate at Nanjing University of Science and Technology. 
+- *2026.09 -  (incoming)*, PhD Student at Hong Kong University of Science and Technology. 
+- *2022.09 - 2026.06*, Undergraduate Student at Nanjing University of Science and Technology. 
 
-/ / # 💬 Invited Tal
-/ / / - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-/ / / - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💬 Invited Talk
 
 # 🔧 Services
 ## Conference Reviewer
@@ -99,8 +97,8 @@ Deep hashing excels in retrieval but remains vulnerable to adversarial attacks. 
 - Pattern Recognition Letters
 
 # 💻 Internships
-- *July. 2025 - Sep. 2025*, Research Assistant at [Zayed University](https://www.zu.ac.ae/), UAE.
-- *Jan. 2025 - Jun. 2025*, Research Intern at [School of Computer Science, Peking University](https://cs.pku.edu.cn/), China.
+- *July. 2025 - Sep. 2025*, **Research Assistant** at [Zayed University](https://www.zu.ac.ae/), UAE.
+- *Jan. 2025 - Jun. 2025*, **Research Intern** at [School of Computer Science, Peking University](https://cs.pku.edu.cn/), China.
 
 # 😋 Interests
 
@@ -110,7 +108,7 @@ My taste in shows is also quite diverse. I like British dramas like *Sherlock*, 
 
 If you play badminton, hit me up! I’m up for men’s singles, men’s doubles, or mixed doubles (barely tried mixed but always open to trying!).
 
-I'm fond of travelling and I've visited 17 countries so far:
+I'm fond of travelling and I've visited 18 countries so far:
 - **Asia** (6): Cambodia, China, Malaysia, Thailand, Turkey, Vietnam
-- **Europe** (10): France, Greece, Iceland, Italy, Russia, Spain, Sweden, Switzerland, The United Kingdom, Vatican
+- **Europe** (11): France, Greece, Iceland, Italy, Monaco, Russia, Spain, Sweden, Switzerland, The United Kingdom, Vatican
 - **America** (1): USA
