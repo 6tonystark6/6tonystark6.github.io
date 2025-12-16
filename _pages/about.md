@@ -103,7 +103,7 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
       <p>Won 10 national awards and published 3 CCF papers.</p>
       <ul>
         <li>Awarded BYD Scholarship (Top 0.1%) and Top Moral Student (Top 0.3%).</li>
-        <li>Ranked first for three years and got the offer from School of Computer Science, Peking University.</li>
+        <li>Got the offer from School of Computer Science, Peking University.</li>
         <li>Won National First Prize in MCM/ICM, ROBOCON, NECCS, etc.</li>
       </ul>
     </div>
