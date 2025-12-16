@@ -80,7 +80,35 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
 
 # 📖 Educations
 - *2026.09 -  (incoming)*, PhD Student at Hong Kong University of Science and Technology. 
-- *2022.09 - 2026.06*, Undergraduate Student at Nanjing University of Science and Technology. 
+- *2022.09 - 2026.06*, Undergraduate Student at Nanjing University of Science and Technology.
+
+<div class="timeline-item">
+  <div class="timeline-time">2023.09 – present</div>
+
+  <div class="education-box">
+    <div class="education-logo">
+      <img src="images/njust.png" alt="Nanjing University of Science and Technology logo">
+    </div>
+
+    <div class="education-summary">
+      <h3>Nanjing University of Science and Technology</h3>
+      <div class="internship-role">Industrial Design</div>
+      <div class="internship-role">Bachelor of Engineering</div>
+      <div class="internship-advisor">
+        Advisor: <a href="https://gsmis.njust.edu.cn/open/TutorInfo.aspx?dsbh=VfROA99xgrs5sZgcl5LCBA==&yxsh=z70ppxVSQAs=&zydm=SwsWR9zpmmw=" target="_blank">Prof. Xiaobo Shen</a>
+      </div>
+    </div>
+    
+    <div class="internship-detail">
+      <p>Won 10 national awards and published 3 CCF papers.</p>
+      <ul>
+        <li>Awarded BYD Scholarship (Top 0.1%) and Top Moral Student (Top 0.3%).</li>
+        <li>Ranked first for three years and got the offer from School of Computer Science, Peking University.</li>
+        <li>Won National First Prize in MCM/ICM, ROBOCON, NECCS, etc.</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 # 💬 Invited Talk
 
