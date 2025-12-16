@@ -58,7 +58,7 @@ Ancient Chinese poetry lacks dedicated pre-trained models. We propose PoemBERT, 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2025</div><img src='images/icassp2025-cover.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/icassp2025-cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Efficient Multi-branch Black-box Semantic-aware Targeted Attack Against Deep Hashing Retrieval](https://ieeexplore.ieee.org/abstract/document/10889223) [**[Code]**](https://github.com/6tonystark6/EmbSTar) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:ufrVoPGSRksC'></span></strong>
