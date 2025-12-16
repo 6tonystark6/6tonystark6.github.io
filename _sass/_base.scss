@@ -511,7 +511,7 @@ figure > a {
 }
 
   //start
-.internship-box {
+.education-box {
   display: flex;
   align-items: center;
   background-color: #f9f9f9;
@@ -523,12 +523,12 @@ figure > a {
   position: relative;
 }
 
-.internship-box:hover {
+.education-box:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
-.internship-logo {
+.education-logo {
   //flex-basis: 20%;
   margin-right: 24px;
   display: flex;
@@ -536,7 +536,7 @@ figure > a {
   justify-content: center;
 }
 
-.internship-logo img {
+.education-logo img {
   width: 150px;
   height: 150px;
   border-radius: 12px;
@@ -544,14 +544,14 @@ figure > a {
   object-fit: cover;
 }
 
-.internship-summary {
+.education-summary {
   //flex-basis: 20%;
   position: relative;
   padding-right: 16px;
   margin-right: 12px;
 }
 
-.internship-summary::after {
+.education-summary::after {
   content: "";
   position: absolute;
   top: -7%;
@@ -564,21 +564,21 @@ figure > a {
   border-radius: 4px;
 }
 
-.internship-summary h3 {
+.education-summary h3 {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 700;
   color: #222;
 }
 
-.internship-role,
-.internship-advisor {
+.education-role,
+.education-advisor {
   font-size: 1rem;
   margin-top: 8px;
   color: #555;
 }
 
-.internship-detail {
+.education-detail {
   //flex-basis: 60%;
   flex-shrink: 0;
   padding-left: 8px;
@@ -588,14 +588,14 @@ figure > a {
 }
 
 
-.internship-detail p {
+.education-detail p {
   margin: 0 0 0.1em 0;
   font-weight: 400;
   font-size: 1rem;  /* 与 li 保持一致更协调 */
   line-height: 1.35;
 }
 
-.internship-detail ul {
+.education-detail ul {
   margin-top: 0;     /* ⬅️ 去掉与 p 的间距 */
   margin-bottom: 0;
   padding-left: calc(var(--spacing-unit) * 0.8); /* ⬅️ 模仿 highlight-block 缩进 */
@@ -608,22 +608,22 @@ figure > a {
 }
 
 @media (max-width: 768px) {
-  .internship-box {
+  .education-box {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .internship-summary::after {
+  .education-summary::after {
     display: none;
   }
 
-  .internship-summary {
+  .education-summary {
     padding-right: 0;
     margin-right: 0;
     margin-bottom: 16px;
   }
 
-  .internship-logo {
+  .education-logo {
     margin-bottom: 16px;
   }
 }
