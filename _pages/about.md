@@ -99,7 +99,7 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
       </div>
     </div>
     
-    <div class="internship-detail">
+    <div class="education-detail">
       <p>Won 10 national awards and published 3 CCF papers.</p>
       <ul>
         <li>Awarded BYD Scholarship (Top 0.1%) and Top Moral Student (Top 0.3%).</li>
