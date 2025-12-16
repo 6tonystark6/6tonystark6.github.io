@@ -24,7 +24,8 @@ My research interest includes Trustworthy AI, Large Language Model and Diffusion
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 I got the offer from the School of Computer Science, Peking University at the summer camp.
-- *2025.05*: &nbsp;🎉🎉 Our work is online <a href="https://arxiv.org/pdf/2505.14455" target="_blank"><strong>arxiv</strong></a>
+- *2025.06*: &nbsp;🎉🎉 Our paper CtrlDiff is online at <a href="https://arxiv.org/pdf/2505.14455" target="_blank"><strong>Arxiv</strong></a>
+- *2025.06*: &nbsp;🎉🎉 Our paper ScoreAdv is online at <a href="https://arxiv.org/pdf/2507.06078" target="_blank"><strong>Arxiv</strong></a>
 - *2024.12*: &nbsp;🎉🎉 Our paper is accepted by <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32377" target="_blank"><strong>AAAI2025</strong></a>, congratulations to our co-authors!
 
 # 📝 Publications 
@@ -71,10 +72,11 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
 
 # 🎖 Honors and Awards
 - *2025.12* BYD Scholarship (Top 0.1%)
-- *2024.09* Top Moral Student at NJUST (Top 0.3%)
-- *2024.09* Superior Scholarship at NJUST 
-- *2024.04* First Prize Scholarship at NJUST 
-- *2023.04* First Prize Scholarship at NJUST 
+- *2024.09* Top Moral Student of Nanjing University of Science and Technology (Top 0.3%)
+- *2024.09* Superior Scholarship of Nanjing University of Science and Technology
+- *2024.04* First-Class Scholarship of Nanjing University of Science and Technology
+- *2023.09* Excellent Scientific Student of Nanjing University of Science and Technology
+- *2023.04* First-Class Scholarship of Nanjing University of Science and Technology 
 
 # 📖 Educations
 - *2026.09 -  (incoming)*, PhD Student at Hong Kong University of Science and Technology. 
