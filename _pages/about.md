@@ -36,11 +36,10 @@ My research interest includes Trustworthy AI, Large Language Model and Diffusion
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025-cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[HUANG: A Robust Diffusion Model-based Targeted Adversarial Attack Against Deep Hashing Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/32377)
+[HUANG: A Robust Diffusion Model-based Targeted Adversarial Attack Against Deep Hashing Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/32377) [**[Code]**](https://github.com/6tonystark6/HUANG) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:LkGwnXOMwfcC'></span></strong>
 
 **Chihan Huang**, Xiaobo Shen
 
-[**Code**](https://github.com/6tonystark6/HUANG) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:LkGwnXOMwfcC'></span></strong>
 Deep hashing models excel in retrieval but share the vulnerability of deep networks to adversarial attacks. While most attacks focus on classification, few target retrieval models. We propose HUANG, the first black-box targeted adversarial attack for hashing retrieval using a diffusion model. Our method guides the shift from benign to adversarial distributions via adversarial perturbations and a residual image. Experiments show HUANG achieves state-of-the-art performance in black-box targeted attacks across datasets, with strong robustness and transferability due to the dynamic interplay between denoising and perturbation addition.
 </div>
 </div>
@@ -49,12 +48,11 @@ Deep hashing models excel in retrieval but share the vulnerability of deep netwo
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2025</div><img src='images/coling2025-cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PoemBERT: A Dynamic Masking Content and Ratio Based Semantic Language Model For Chinese Poem Generation](https://aclanthology.org/2025.coling-main.5.pdf)
+[PoemBERT: A Dynamic Masking Content and Ratio Based Semantic Language Model For Chinese Poem Generation](https://aclanthology.org/2025.coling-main.5.pdf) [**[Code]**](https://github.com/6tonystark6/PoemBERT) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:_FxGoFyzp5QC'></span></strong>
 
 **Chihan Huang**, Xiaobo Shen
 
-[**Code**](https://github.com/6tonystark6/PoemBERT) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:_FxGoFyzp5QC'></span></strong>
-Ancient Chinese poetry stands as a crucial treasure in Chinese culture. To address the absence of pre-trained models for ancient poetry, we introduced PoemBERT, a BERT-based model utilizing a corpus of classical Chinese poetry. Recognizing the unique emotional depth and linguistic precision of poetry, we incorporated sentiment and pinyin embeddings into the model, enhancing its sensitivity to emotional information and addressing challenges posed by the phenomenon of multiple pronunciations for the same Chinese character. Additionally, we proposed Character Importance-based masking and dynamic masking strategies, significantly augmenting the model's capability to extract imagery-related features and handle poetry-specific information. Fine-tuning our PoemBERT model on various downstream tasks, including poem generation and sentiment classification, resulted in state-of-the-art performance in both automatic and manual evaluations. We provided explanations for the selection of the dynamic masking rate strategy and proposed a solution to the issue of a small dataset size.
+Ancient Chinese poetry lacks dedicated pre-trained models. We propose PoemBERT, a BERT-based model trained on classical poetry. By incorporating sentiment and pinyin embeddings, along with novel Character Importance-based and dynamic masking strategies, it better captures poetic emotion, imagery, and linguistic nuances. Fine-tuned for tasks like generation and classification, PoemBERT achieves state-of-the-art performance in automated and human evaluations.
 </div>
 </div>
 
@@ -62,12 +60,11 @@ Ancient Chinese poetry stands as a crucial treasure in Chinese culture. To addre
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2025</div><img src='images/icassp2025-cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient Multi-branch Black-box Semantic-aware Targeted Attack Against Deep Hashing Retrieval](https://ieeexplore.ieee.org/abstract/document/10889223)
+[Efficient Multi-branch Black-box Semantic-aware Targeted Attack Against Deep Hashing Retrieval](https://ieeexplore.ieee.org/abstract/document/10889223) [**[Code]**](https://github.com/6tonystark6/EmbSTar) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:ufrVoPGSRksC'></span></strong>
 
 **Chihan Huang**, Xiaobo Shen
 
-[**Code**](https://github.com/6tonystark6/EmbSTar) <strong><span class='show_paper_citations' data='bS5yQmwAAAAJ:ufrVoPGSRksC'></span></strong>
-Deep hashing have achieved exceptional performance in retrieval tasks due to their robust representational capabilities. However, they inherit the vulnerability of deep neural networks to adversarial attacks. These models are susceptible to finely crafted adversarial perturbations that can lead them to return incorrect retrieval results. Although numerous adversarial attack methods have been proposed, there has been a scarcity of research focusing on targeted black-box attacks against deep hashing models. We introduce the Efficient Multi-branch Black-box Semantic-aware Targeted Attack against Deep Hashing Retrieval (EmbSTar), capable of executing targeted black-box attacks on hashing models. Initially, we distill the target model to create a knockoff model. Subsequently, we devised novel Target Fusion and Target Adaptation modules to integrate and enhance the semantic information of the target label and image. Knockoff model is then utilized to align the adversarial image more closely with the target image semantically. With the knockoff model, we can obtain powerful targeted attacks with few queries. Extensive experiments demonstrate that EmbSTar significantly surpasses previous models in its targeted attack capabilities, achieving SOTA performance for targeted black-box attacks.
+Deep hashing excels in retrieval but remains vulnerable to adversarial attacks. Existing methods rarely address targeted black-box attacks on these models. We propose EmbSTar, an efficient multi-branch attack framework. It first distills a knockoff model, then uses novel Target Fusion and Adaptation modules to semantically align adversarial images with a target. This enables powerful, query-efficient attacks. Extensive experiments show EmbSTar achieves state-of-the-art performance in targeted black-box scenarios.
 </div>
 </div>
 
@@ -83,9 +80,9 @@ Deep hashing have achieved exceptional performance in retrieval tasks due to the
 - *2026.09 -  (incoming)*, PhD at Hong Kong University of Science and Technology. 
 - *2022.09 - 2026.06*, undergraduate at Nanjing University of Science and Technology. 
 
-% # 💬 Invited Talks
-% - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-% - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+/ / # 💬 Invited Tal
+/ / / - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+/ / / - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 🔧 Services
 ## Conference Reviewer
@@ -107,13 +104,13 @@ Deep hashing have achieved exceptional performance in retrieval tasks due to the
 
 # 😋 Interests
 
-Outside of research, I enjoy playing badminton, singing, and watching TV shows. I rarely play video games. Some of my favorite singers include Jay Chou, JJ Lin, Jason Zhang, Joker Xue, Shen Zhou, G.E.M, Ghost Huang and Feige Zhou. That said, I listen to a wide range of music and mostly Mandopop.
+Outside of research, I enjoy **playing badminton**, **singing**, **watching TV shows** and **travelling**. I rarely play video games. Some of my favorite singers include *Jay Chou*, *JJ Lin*, *Jason Zhang*, *Joker Xue*, *Shen Zhou*, *G.E.M*, *Ghost Huang* and *Feige Zhou*. That said, I listen to a wide range of music and mostly Mandopop.
 
-My taste in shows is also quite diverse. I like British dramas like <i>Sherlock</i>, American series like <i>The Good Doctor</i>, and Marvel shows such as <i>Agents of S.H.I.E.L.D.</i>, <i>What If...?</i>, and <i>WandaVision</i>. I also watch Chinese dramas like <i>Lighter and Princess</i>, <i>The Knockout</i>, and <i>Blossoms Shanghai</i>. I enjoy music variety shows too, such as <i>Singer</i>, <i>The Treasured Voice</i>, and <i>Melody Journey</i>.
+My taste in shows is also quite diverse. I like British dramas like *Sherlock*, American series like *The Good Doctor*, and Marvel shows such as *Agents of S.H.I.E.L.D.*, *What If...?*, and *WandaVision*. I also watch Chinese dramas like *Lighter and Princess*, *The Knockout*, and *Blossoms Shanghai*. I enjoy music variety shows too, such as *Singer*, *The Treasured Voice*, and *Melody Journey*.
 
 If you play badminton, hit me up! I’m up for men’s singles, men’s doubles, or mixed doubles (barely tried mixed but always open to trying!).
 
 I'm fond of travelling and I've visited 17 countries so far:
-- Asia (6): Cambodia, China, Malaysia, Thailand, Turkey, Vietnam
-- Europe (10): France, Greece, Iceland, Italy, Russia, Spain, Sweden, Switzerland, The United Kingdom, Vatican
-- America (1): USA
+- **Asia** (6): Cambodia, China, Malaysia, Thailand, Turkey, Vietnam
+- **Europe** (10): France, Greece, Iceland, Italy, Russia, Spain, Sweden, Switzerland, The United Kingdom, Vatican
+- **America** (1): USA
