@@ -412,8 +412,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   margin-bottom: 0;
   padding-left: calc(var(--spacing-unit) * 0.8); /* ⬅️ 模仿 highlight-block 缩进 */
  li {
-    margin-bottom: calc(var(--spacing-unit) * 0); /* 控制上下间距 */
-    line-height: 1.1;                               /* 控制行高（内容本身高度） */
+    margin-bottom: 8px; /* 控制上下间距 */
+    line-height: 1.2;                               /* 控制行高（内容本身高度） */
     color: #333;
     font-size: 0.9rem;
   }
