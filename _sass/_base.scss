@@ -419,6 +419,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
 }
 
+.education-detail ul li { 
+  margin-bottom: 8px; /* 示例值：增加底部间距 */
+  line-height: 1.4; /* 可以同时增大行高以优化可读性 */
+  color: #333;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .education-box {
     flex-direction: column;
