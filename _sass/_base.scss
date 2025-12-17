@@ -352,7 +352,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   height: 150px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  object-fit: cover;
+  object-fit: containc
 }
 
 .education-summary {
@@ -377,6 +377,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .education-summary h3 {
   margin: 0;
+  margin-bottom: 8px;
   font-size: 1.25rem;
   font-weight: 700;
   color: #222;
