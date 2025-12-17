@@ -79,8 +79,6 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
 - *2023.04* First-Class Scholarship of Nanjing University of Science and Technology 
 
 # 📖 Educations
-- *2026.09 -  (incoming)*, PhD Student at Hong Kong University of Science and Technology. 
-- *2022.09 - 2026.06*, Undergraduate Student at Nanjing University of Science and Technology.
 
 <div class="timeline-item">
   <div class="timeline-time">2026.09 (incoming)</div>
