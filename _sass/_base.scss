@@ -341,7 +341,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .education-logo {
   //flex-basis: 20%;
-  margin-right: 24px;
+  margin-right: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -352,7 +352,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   height: 150px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  object-fit: containc
+  object-fit: contain；
 }
 
 .education-summary {
