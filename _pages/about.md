@@ -102,7 +102,7 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
     <div class="education-detail">
       <p>Coming soon.</p>
       <ul>
-        <li>Coming soon.</li>
+        <li>Coming soon1.</li>
         <li>Coming soon.</li>
         <li>Coming soon.</li>
       </ul>
