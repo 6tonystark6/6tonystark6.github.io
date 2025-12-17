@@ -83,7 +83,36 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
 - *2022.09 - 2026.06*, Undergraduate Student at Nanjing University of Science and Technology.
 
 <div class="timeline-item">
-  <div class="timeline-time">2023.09 – present</div>
+  <div class="timeline-time">2026.09 (incoming)</div>
+
+  <div class="education-box">
+    <div class="education-logo">
+      <img src="images/hkust.png" alt="Hong Kong University of Science and Technology logo">
+    </div>
+
+    <div class="education-summary">
+      <h3>Hong Kong University of Science and Technology</h3>
+      <div class="internship-role">Computer Science</div>
+      <div class="internship-role">PhD Student</div>
+      <div class="internship-advisor">
+        Advisor: <a href="https://cse.hkust.edu.hk/~shuaiw/" target="_blank">Prof. Shuai Wang</a>
+      </div>
+    </div>
+    
+    <div class="education-detail">
+      <p>Coming soon.</p>
+      <ul>
+        <li>Coming soon.</li>
+        <li>Coming soon.</li>
+        <li>Coming soon.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="timeline-item">
+  <div class="timeline-time">2022.09 – present</div>
 
   <div class="education-box">
     <div class="education-logo">
