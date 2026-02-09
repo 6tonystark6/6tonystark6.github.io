@@ -148,6 +148,7 @@ Deep hashing excels at retrieval but is vulnerable to adversarial attacks, espec
 - ICWSM 2025
 
 ## Journal Reviewer
+- IEEE Transactions on Information Forensics & Security
 - IEEE Transactions on Multimedia
 - Neurocomputing
 - Applied Intelligence
@@ -165,7 +166,7 @@ My taste in shows is also quite diverse. I like British dramas like *Sherlock*, 
 
 If you play badminton, hit me up! I’m up for men’s singles, men’s doubles, or mixed doubles (barely tried mixed but always open to trying!).
 
-I'm fond of travelling and I've visited 18 countries so far:
-- **Asia** (6): Cambodia, China, Malaysia, Thailand, Turkey, Vietnam
-- **Europe** (11): France, Greece, Iceland, Italy, Monaco, Russia, Spain, Sweden, Switzerland, The United Kingdom, Vatican
+I'm fond of travelling and I've visited 19 countries so far:
+- **Asia** (5): Cambodia, China, Malaysia, Thailand, Vietnam
+- **Europe** (13): Denmark, France, Greece, Iceland, Italy, Monaco, Russia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Vatican
 - **America** (1): USA
