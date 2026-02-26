@@ -166,7 +166,7 @@ My taste in shows is also quite diverse. I like British dramas like *Sherlock*, 
 
 If you play badminton, hit me up! I’m up for men’s singles, men’s doubles, or mixed doubles (barely tried mixed but always open to trying!).
 
-I'm fond of travelling and I've visited 19 countries so far:
-- **Asia** (5): Cambodia, China, Malaysia, Thailand, Vietnam
-- **Europe** (13): Denmark, France, Greece, Iceland, Italy, Monaco, Russia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Vatican
+I'm fond of travelling and I've visited 22 countries so far:
+- **Asia** (6): Cambodia, China, Malaysia, Thailand, Turkey, Vietnam
+- **Europe** (15): Austria, Denmark, France, Greece, Hungary, Iceland, Italy, Monaco, Russia, Spain, Sweden, Switzerland, The Czech Republic, The United Kingdom, Vatican
 - **America** (1): USA
